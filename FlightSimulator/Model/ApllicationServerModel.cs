@@ -21,7 +21,7 @@ namespace FlightSimulator.Model
         bool isConnected = true;
         string m_lon = "0";
         string m_lat = "0";
-        double EPSILON = 0.0025;
+        double EPSILON = 0.00025;
         bool isFirstTime = true;
 
 
