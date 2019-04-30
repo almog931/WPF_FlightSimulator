@@ -1,0 +1,119 @@
+commit 485804a0ed8949d9f1258b795de4aea5e6dc8028
+Author: oded282 <oded282@gmail.com>
+Date:   Sat Apr 27 12:25:48 2019 +0300
+
+    1225
+
+commit 09fc3aba5356e74e6b7978b4d104d24df9ba6ffe
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Thu Apr 25 12:52:06 2019 +0300
+
+    13:00
+
+commit cb7553186b847106b246e69d7dce11c5e056eb16
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Thu Apr 25 11:53:49 2019 +0300
+
+    12:00
+
+commit 2e4aebbd1aa2e66c0183943edee2d3939ccb8e2f
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sun Apr 21 21:07:40 2019 +0300
+
+    9010
+
+commit 7eaa3d2626ad38263a96f526ae87d5eb4be3457f
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sun Apr 21 20:53:10 2019 +0300
+
+    9000
+
+commit d1c27bf2903c41828fa2c9adcd11c8641cd067fa
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sun Apr 21 18:58:57 2019 +0300
+
+    1700
+
+commit 14002fbd5bad7b7d61068dcd18da68adc5c99778
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sun Apr 21 15:05:18 2019 +0300
+
+    1500
+
+commit 39affcdefdc5c110ffdc116e2aa66de9d25cd3d2
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sun Apr 21 13:27:17 2019 +0300
+
+    13:30
+
+commit 651f44c3efbe44ea814c583c74c7b8b193f0ff13
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sat Apr 20 22:35:59 2019 +0300
+
+    10:35
+
+commit aa5aa30cbc96df309130f8d4b9b835017f18045e
+Author: oded282 <oded282@gmail.com>
+Date:   Thu Apr 18 20:29:01 2019 +0300
+
+    2028
+
+commit ebd3969700d7fb8f182233846d991e91a05da8db
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Thu Apr 18 17:36:56 2019 +0300
+
+    1735
+
+commit e01965ca36021ccd30df720ae07b1705d7ad9145
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Wed Apr 17 17:20:06 2019 +0300
+
+    1720
+
+commit 66a3e9383ff66dff1cbff3ee95f8814723754ec4
+Author: oded282 <oded282@gmail.com>
+Date:   Wed Apr 17 17:11:44 2019 +0300
+
+    1711
+
+commit fbdd2be55a47bd099449a0a97e6b8e47ce27f1fa
+Author: oded282 <oded282@gmail.com>
+Date:   Wed Apr 17 17:02:12 2019 +0300
+
+    1701
+
+commit b9e2b48a073b1304bf3de750fe7b9623b977eb3f
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Wed Apr 17 12:45:17 2019 +0300
+
+    13:00
+
+commit e24e6a2058d0b2c1ef8cf7f642ccbd58775812f1
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Wed Apr 17 10:06:43 2019 +0300
+
+    10:00
+
+commit f57f98388d26d6b14a5e196258895315b05fb6c5
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Wed Apr 17 09:06:15 2019 +0300
+
+    9:00
+
+commit 677ae270af871cf98d798237111c497107e09998
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Sun Apr 14 03:24:04 2019 +0300
+
+    3:30
+
+commit d53935dc0057284fad7bd73a0d0b71ef732ddb3d
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Thu Apr 11 18:49:59 2019 +0300
+
+    Add project files.
+
+commit ad767ed802b5c9987f382b158425ce8b6ad6a739
+Author: Almog Levi <almog.levi@live.biu.ac.il>
+Date:   Thu Apr 11 18:49:57 2019 +0300
+
+    Add .gitignore and .gitattributes.

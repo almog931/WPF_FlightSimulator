@@ -14,6 +14,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FlightSimulator.Model.EventArgs;
 
 namespace FlightSimulator.Views
 {
@@ -89,14 +90,14 @@ namespace FlightSimulator.Views
         /// <summary>Delegate holding data for joystick state change</summary>
         /// <param name="sender">The object that fired the event</param>
         /// <param name="args">Holds new values for Aileron and Elevator</param>
-      //  public delegate void OnScreenJoystickEventHandler(Joystick sender, VirtualJoystickEventArgs args);
+        public delegate void OnScreenJoystickEventHandler(Joystick sender, VirtualJoystickEventArgs args);
 
         /// <summary>Delegate for joystick events that hold no data</summary>
         /// <param name="sender">The object that fired the event</param>
         public delegate void EmptyJoystickEventHandler(Joystick sender);
 
         /// <summary>This event fires whenever the joystick moves</summary>
-       // public event OnScreenJoystickEventHandler Moved;
+        public event OnScreenJoystickEventHandler Moved;
 
         /// <summary>This event fires once the joystick is released and its position is reset</summary>
         public event EmptyJoystickEventHandler Released;
@@ -146,17 +147,21 @@ namespace FlightSimulator.Views
             double distance = Math.Round(Math.Sqrt(deltaPos.X * deltaPos.X + deltaPos.Y * deltaPos.Y));
             if (distance >= canvasWidth / 2 || distance >= canvasHeight / 2)
                 return;
-            Aileron = -deltaPos.Y;
-            Elevator = deltaPos.X;
+            Aileron = Math.Round(2.1 * deltaPos.X / canvasWidth, 2);
+            if (Aileron > 1) Aileron = 1;
+            else if (Aileron < -1) Aileron = -1;
+            Elevator = Math.Round(-2.1 * deltaPos.Y / canvasHeight, 2);
+            if (Elevator > 1) Elevator = 1;
+            else if (Elevator < -1) Elevator = 1;
 
             knobPosition.X = deltaPos.X;
             knobPosition.Y = deltaPos.Y;
 
-        //    if (Moved == null ||
-          //      (!(Math.Abs(_prevAileron - Aileron) > AileronStep) && !(Math.Abs(_prevElevator - Elevator) > ElevatorStep)))
-            //    return;
+            if (Moved == null ||
+                (!(Math.Abs(_prevAileron - Aileron) > AileronStep) && !(Math.Abs(_prevElevator - Elevator) > ElevatorStep)))
+                return;
 
-  //          Moved?.Invoke(this, new VirtualJoystickEventArgs { Aileron = Aileron, Elevator = Elevator });
+            Moved?.Invoke(this, new VirtualJoystickEventArgs { Aileron = Aileron, Elevator = Elevator });
             _prevAileron = Aileron;
             _prevElevator = Elevator;
 
